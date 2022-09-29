@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Markup III</title>
+</head>
+<body>
+    <div class="fcontainer">
+        <div class="count">
+            <span class="numbers one">1</span>
+            <span class="process c">Cabin</span>
+            <p class="line1"></p>
+            <span class="numbers two">2</span>
+            <span class="process m">Meals</span>
+            <p class="line2"></p>
+            <span class="numbers three">3</span>
+            <span class="process u">Upgrades</span>
+            <p class="line2"></p>
+            <span class="numbers four">4</span>
+            <span class="process p">Payment</span>
+        </div>
+        <div class="meals">
+            <div class="meal-text">
+                <h2>Meal Preferences</h2><br>
+                <p class="text1">Your flight comes with breakfast, lunch, and dinner. Please make your selections below. <br>
+                    Changes to your order can be made up to 48 hours before your flight.
+                </p>
+            </div>
+            <div class="meal-select">
+                <div class="bld">
+                    <label for="break" id="lbl-break">
+                        Breakfast
+                    </label>
+            
+                    <select name="breakfast" id="break">
+                        <option value="b1">Sausage Egg Scramble Bowl</option>
+                        <option value="b2">Club Sandwich Meal</option>
+                        <option value="b3">Wagyu Beef Sliders Meal</option>
+                    </select>
+
+                    <label for="lun" id="lbl-lun">
+                        Lunch
+                    </label>
+            
+                    <select name="lunch" id="lun">
+                        <option value="l1">Club Sandwich Meal</option>
+                        <option value="l2">Sausage Egg Scramble Bowl</option>
+                        <option value="l3">Wagyu Beef Sliders Meal</option>
+                    </select>
+
+                    <label for="din" id="lbl-din">
+                        Dinner
+                    </label>
+            
+                    <select name="dinner" id="din">
+                        <option value="d1">Wagyu Beef Sliders Meal</option>
+                        <option value="d2">Sausage Egg Scramble Bowl</option>
+                        <option value="d3">Club Sandwich Meal</option>
+                    </select>
+
+                    <label for="inp-1" id="des">
+				        <input type="checkbox"
+					        name="inp">   I'd like dessert, too!
+                        </input>
+                    </label>
+                </div>
+                <div class="drinks">
+                    <label for="dr1" id="lbl-dr1">
+                        Drink
+                    </label>
+            
+                    <select name="drink1" id="dr1">
+                        <option value="b1">Coffee</option>
+                    </select>
+
+                    <label for="dr2" id="lbl-dr2">
+                        Drink
+                    </label>
+            
+                    <select name="drink2" id="dr2">
+                        <option value="l1">Cranberry Juice</option>
+                    </select>
+
+                    <label for="dr3" id="lbl-dr3">
+                        Drink
+                    </label>
+            
+                    <select name="drink3" id="dr3">
+                        <option value="d1">Red Wine</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="submits">
+                <button type="submit" value="submit" id="but1">
+                    Back
+                </button>
+                <button type="submit" value="submit" id="but2">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
